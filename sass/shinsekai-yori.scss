@@ -1,0 +1,26 @@
+$siteWidth: 1200px;
+$headerHeight: 120px;
+$smallBreakpoint: 700px;
+$mediumBreakpoint: 900px;
+$bulletImage: url(../img/notes-black.png);
+$activeBulletImage: url(../img/notes-white.png);
+$textColor: #222;
+$headerColor: #fefefe;
+$bgColor: rgba(236, 246, 255, 0.6);
+$linkColor: rgba(167, 29, 44, 1);
+$accentColor: rgba(45, 61, 90, 1);
+$navDarkColor: rgba(255, 158, 175, 0.6);
+$subNavDarkColor: rgba(24, 24, 24, 0.9);
+$navActiveColor: $linkColor;
+$navActiveTextColor: $headerColor;
+$sheetMusicColor: rgba(190, 201, 222, 0.4);
+$sheetMusicActiveColor: rgba(202, 209, 222, 0.8);
+$sheetMusicActiveTextColor: $linkColor;
+$contentPadding: 10px;
+$navHoverAnimation: 3px;
+
+@import 'main';
+
+body {
+    background: #2d3d5a url(../img/shinsekai-yori-bg.jpg) center bottom / 120% auto no-repeat fixed;
+}

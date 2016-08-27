@@ -1,0 +1,30 @@
+$siteWidth: 1200px;
+$headerHeight: 120px;
+$smallBreakpoint: 700px;
+$mediumBreakpoint: 900px;
+$bulletImage: url(../img/notes-white.png);
+$activeBulletImage: url(../img/notes-black.png);
+$textColor: #eee;
+$headerColor: $textColor;
+$bgColor: lighten(#222, 8%);
+$linkColor: #ffba3b;
+$accentColor: $bgColor;
+$navDarkColor: darken($bgColor, 4%);
+$subNavDarkColor: rgba(24, 24, 24, 0.9);
+$navActiveColor: $linkColor;
+$navActiveTextColor: $bgColor;
+$sheetMusicColor: lighten($bgColor, 4%);
+$sheetMusicActiveColor: $linkColor;
+$sheetMusicActiveTextColor: $bgColor;
+$contentPadding: 10px;
+$navHoverAnimation: 3px;
+
+@import 'main';
+
+body {
+    background: #222;
+}
+
+.header .header-inner .header-image {
+  height: auto;
+}

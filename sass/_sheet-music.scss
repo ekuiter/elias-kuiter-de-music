@@ -1,0 +1,87 @@
+ul.sheet-music {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 0 15px 0;
+
+  > li {
+    padding: 5px;
+    margin: 8px 0;
+    border: 1px solid $accentColor;
+    border-radius: 8px;
+    background-color: $sheetMusicColor;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    white-space: nowrap;
+    overflow: hidden;
+    @include transition(all, 50ms, linear);
+    
+    &:hover {
+      background-color: $sheetMusicActiveColor;
+    }
+    
+    p {
+      margin: 0;
+      padding: 5px;
+      
+      strong {
+        font-size: 1.3em;
+      }
+    }
+  
+    > ul {
+      list-style-type: none;
+      padding: 5px;
+      margin: 0;
+      display: flex;
+      justify-content: flex-end;
+      
+      > li {
+        padding: 0 8px;
+        
+        &:nth-child(1) a {
+          background: $bulletImage left center no-repeat;
+          padding-left: 22px;
+        }
+        
+        &:nth-child(2) a {
+          background: url(../img/pdf.png) left center no-repeat;
+          padding-left: 22px;
+        }
+      }
+    }
+  }
+  
+  &.overview > li {
+    padding: 0;
+    
+    > a {
+      padding: 5px;
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      white-space: nowrap;
+      overflow: hidden;
+  
+      p span {
+        color: $textColor;
+        font-weight: normal;
+      }
+      
+      p strong, p span {
+        @include transition(all, 50ms, linear);
+      }
+    }
+    
+    &:hover > a {
+      text-decoration: none;
+  
+      p strong, p span {
+        color: $sheetMusicActiveTextColor;
+      }
+    }
+  }
+}
