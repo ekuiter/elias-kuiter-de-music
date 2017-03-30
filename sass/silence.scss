@@ -1,0 +1,26 @@
+$siteWidth: 1200px;
+$headerHeight: 120px;
+$smallBreakpoint: 700px;
+$mediumBreakpoint: 900px;
+$bulletImage: url(../img/notes-black.png);
+$activeBulletImage: url(../img/notes-white.png);
+$textColor: #222;
+$headerColor: $textColor;
+$bgColor: rgba(250, 228, 171, 0.7);
+$linkColor: #ad0000;
+$accentColor: rgba(112, 111, 109, 1);
+$navDarkColor: rgba(197, 0, 0, 0.4);
+$subNavDarkColor: rgba(24, 24, 24, 0.9);
+$navActiveColor: $linkColor;
+$navActiveTextColor: #fefefe;
+$sheetMusicColor: rgba(251, 227, 203, 0.4);
+$sheetMusicActiveColor: rgba(251, 227, 203, 0.8);
+$sheetMusicActiveTextColor: $linkColor;
+$contentPadding: 10px;
+$navHoverAnimation: 3px;
+
+@import 'main';
+
+body {
+    background: rgba(244, 212, 191, 1) url(../img/silence-bg.jpg) center center no-repeat fixed;
+}
