@@ -6,15 +6,15 @@ $bulletImage: url(../img/notes-white.png);
 $activeBulletImage: url(../img/notes-black.png);
 $textColor: #fefefe;
 $headerColor: $textColor;
-$bgColor: rgba(44, 42, 19, 0.9);
-$linkColor: rgba(229, 207, 139, 1);
-$accentColor: rgba(44, 42, 19, 1);
-$navDarkColor: rgba(24, 24, 24, 0.8);
+$bgColor: rgba(0, 17, 22, 0.7);
+$linkColor: rgba(229, 154, 48, 1);
+$accentColor: rgba(3, 45, 69, 1);
+$navDarkColor: rgba(0, 17, 22, 0.8);
 $subNavDarkColor: rgba(24, 24, 24, 0.9);
 $navActiveColor: $linkColor;
 $navActiveTextColor: #222;
-$sheetMusicColor: rgba(101, 96, 44, 0.4);
-$sheetMusicActiveColor: rgba(101, 96, 44, 0.8);
+$sheetMusicColor: rgba(168, 199, 217, 0.2);
+$sheetMusicActiveColor: rgba(168, 199, 217, 0.4);
 $sheetMusicActiveTextColor: $linkColor;
 $contentPadding: 10px;
 $navHoverAnimation: 3px;
@@ -22,5 +22,11 @@ $navHoverAnimation: 3px;
 @import 'main';
 
 body {
-    background: rgba(44, 42, 19, 1) url(../img/fran-bow-bg.jpg) center center / auto 100% repeat fixed;
+    background: #000116 url(../img/florence-bg.jpg) center center / 100% auto no-repeat fixed;
+}
+
+@media only screen and (max-width: $mediumBreakpoint) {
+    body {
+        background-size: auto 100%;
+    }
 }
