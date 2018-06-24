@@ -1,0 +1,31 @@
+$siteWidth: 1200px;
+$headerHeight: 120px;
+$smallBreakpoint: 700px;
+$mediumBreakpoint: 900px;
+$bulletImage: url(../img/notes-black.png);
+$activeBulletImage: url(../img/notes-white.png);
+$textColor: #222;
+$headerColor: #fefefe;
+$bgColor: rgba(255, 237, 240, 0.8); // 222, 195, 200
+$linkColor: #902034;
+$accentColor: #a56772;
+$navDarkColor: rgba(165, 103, 114, 0.4);
+$navActiveColor: $linkColor;
+$navActiveTextColor: #fefefe;
+$sheetMusicColor: rgba(239, 187, 192, 0.3);
+$sheetMusicActiveColor: rgba(239, 187, 192, 0.8);
+$sheetMusicActiveTextColor: $linkColor;
+$contentPadding: 10px;
+$navHoverAnimation: 3px;
+
+@import 'main';
+
+body {
+    background: #dec3c8 url(../img/foxes-bg.jpg) bottom center / 100% auto no-repeat fixed;
+}
+
+@media only screen and (max-width: $mediumBreakpoint) {
+    body {
+        background-size: auto 100%;
+    }
+}
