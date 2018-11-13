@@ -1,0 +1,25 @@
+$siteWidth: 1200px;
+$headerHeight: 120px;
+$smallBreakpoint: 700px;
+$mediumBreakpoint: 900px;
+$bulletImage: url(../img/notes-black.png);
+$activeBulletImage: url(../img/notes-white.png);
+$textColor: #222;
+$headerColor: $textColor;
+$bgColor: rgba(222, 191, 166, 0.8);
+$linkColor: darken(#956346, 10%);
+$accentColor: lighten(#956346, 10%);
+$navDarkColor: rgba(149, 99, 70, 0.4);
+$navActiveColor: $linkColor;
+$navActiveTextColor: #fefefe;
+$sheetMusicColor: rgba(149, 99, 70, 0.1);
+$sheetMusicActiveColor: rgba(149, 99, 70, 0.3);
+$sheetMusicActiveTextColor: $linkColor;
+$contentPadding: 10px;
+$navHoverAnimation: 3px;
+
+@import 'main';
+
+body {
+    background: #dec3c8 url(../img/aurora-bg.jpg) center center / auto 100% repeat fixed;
+}
