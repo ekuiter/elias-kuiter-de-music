@@ -1,4 +1,4 @@
-sass/.sass-cache/
-.sass-cache/
-aep/
-psd/
+.sass-cache
+css
+aep
+psd
