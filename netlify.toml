@@ -1,2 +1,2 @@
 [build]
-  command = ". compile.sh"
+  command = "npm run build"
