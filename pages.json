@@ -1,0 +1,113 @@
+[
+    {
+        "title": "Overview",
+        "slug": "index",
+        "body": "<p>Hi! Here you can browse and download all sheet music I've created.</p><p>Sometimes, when I can't find sheet music for a song, I decide to make it myself (if I can bring myself to work with MuseScore ಠ_ಠ) Mostly, you can find piano sheets here, but recently I've gotten into choir arrangements as well.</p><p>I've made sheet music for the following video games, animes &amp; artists:</p>{{overviewNavigation}}",
+        "background": "<video playsinline autoplay loop muted poster=\"img/index-bg.jpg\"><source src=\"img/index-bg.mp4\" type=\"video/mp4\"></video>"
+    },
+    {
+        "title": "The Witcher 3",
+        "slug": "the-witcher-3",
+        "summary": "The Vagabond",
+        "body": "<p>This is a piece from the original soundtrack of the action game <em>The Witcher 3: Wild Hunt</em>.</p><p>You can listen to the song on YouTube or download it for free on Sheethost (PDF, MIDI or MuseScore files). Have fun!</p>{{songs}}",
+        "songs": [
+            {
+                "title": "The Vagabond",
+                "subtitle": "(choir)",
+                "listen": "https://youtu.be/Uy-P6birNO0",
+                "download": "https://sheet.host/sheet/Te8QeK"
+            }
+        ]
+    },
+    {
+        "title": "Aurora",
+        "slug": "aurora",
+        "summary": "Warrior, The Seed",
+        "body": "<p>These are some songs from the Norwegian singer <em><a href=\"https://www.aurora-music.com/\" target=\"_blank\">Aurora Aksnes</a></em>.</p><p>You can listen to each song on YouTube or download it for free on Sheethost (PDF, MIDI or MuseScore files). Have fun!</p>{{songs}}",
+        "songs": [
+            {
+                "title": "Warrior",
+                "subtitle": "(piano)",
+                "listen": "https://youtu.be/5G8A2xHdtAU",
+                "download": "https://sheet.host/sheet/f1lOW5"
+            },
+            {
+                "title": "The Seed",
+                "subtitle": "(piano)",
+                "listen": "https://youtu.be/F50deTQaGV4",
+                "download": "https://sheet.host/sheet/yiU8rz"
+            },
+            {
+                "title": "The Seed",
+                "subtitle": "(choir)",
+                "listen": "https://youtu.be/KJyMWjLqLX0",
+                "download": "https://sheet.host/sheet/aOMhrN"
+            }
+        ]
+    },
+    {
+        "title": "Foxes",
+        "slug": "foxes",
+        "summary": "Glorious",
+        "body": "<p>This is a song from the album <em>Glorious</em> by <em><a href=\"https://twitter.com/iamfoxes/\" target=\"_blank\">Foxes</a></em>. Two versions are available: A short and an extended one (which has another chorus at the end and is more difficult).The <a href=\"http://youtu.be/Odu3fWtTx3s\" target=\"_blank\">background instrumental</a> was made by <em><a href=\"https://www.youtube.com/channel/UC__viPsXI_bHE6M_r_7fR-w\" target=\"_blank\">_SLP</a></em>.</p><p>You can listen to the song on YouTube or download it for free on Sheethost (PDF, MIDI or MuseScore files). Have fun!</p>{{songs}}",
+        "songs": [
+            {
+                "title": "Glorious",
+                "subtitle": "Short Ver. (piano)",
+                "listen": "https://youtu.be/CUXnnP41kBc",
+                "download": "https://sheet.host/sheet/TqRWN9"
+            },
+            {
+                "title": "Glorious",
+                "subtitle": "Extended Ver. (piano)",
+                "listen": "https://youtu.be/8MYr-oS19qs",
+                "download": "https://sheet.host/sheet/Fnuw0q"
+            }
+        ]
+    },
+    {
+        "title": "Florence + the Machine",
+        "slug": "florence",
+        "summary": "Which Witch, Moderation",
+        "body": "<p>These are some songs from <em><a href=\"http://florenceandthemachine.net/\" target=\"_blank\">Florence + The Machine</a></em>. <em>Which Witch</em> is from her third album, <em>How Big, How Blue, How Beautiful</em>. <em>Moderation</em> has been released as a single in January 2019.</p><p>The <a href=\"http://youtu.be/WB-cvAM28SQ\" target=\"_blank\">arrangement</a> for <em>Which Witch</em> was made by <em><a href=\"https://www.youtube.com/channel/UCl2_EEC-il22FQ2_jU5Lp-Q\" target=\"_blank\">An Almighty Sound</a></em>, I've only created the sheet music for it. In the background you can hear the incredible <a href=\"http://youtu.be/SjRNpmSWl_8\" target=\"_blank\">instrumental remake</a> made by <em><a href=\"https://www.youtube.com/channel/UCLBvnq5KmCfcpwVKMyU3CSw\" target=\"_blank\">HighwayMonstere</a></em>.</p><p>You can listen to each song on YouTube or download it for free on Sheethost (PDF, MIDI or MuseScore files). Have fun!</p>{{songs}}",
+        "songs": [
+            {
+                "title": "Which Witch",
+                "subtitle": "(piano)",
+                "listen": "https://youtu.be/FFj92WIFJhs",
+                "download": "https://sheet.host/sheet/UoOVyU"
+            },
+            {
+                "title": "Moderation",
+                "subtitle": "(piano)",
+                "listen": "https://youtu.be/pH-cxm8YQdA",
+                "download": "https://sheet.host/sheet/wTNNxe"
+            }
+        ]
+    },
+    {
+        "title": "Silence",
+        "slug": "silence",
+        "summary": "Windy, Renie"
+    },
+    {
+        "title": "Fran Bow",
+        "slug": "fran-bow",
+        "summary": "Black Tears, When Things Are Said &amp; more"
+    },
+    {
+        "title": "Everybody's Gone to the Rapture",
+        "slug": "rapture",
+        "summary": "The Mourning Tree"
+    },
+    {
+        "title": "Shinsekai yori",
+        "slug": "shinsekai-yori",
+        "summary": "Kage no Denshouka Dainibu"
+    },
+    {
+        "title": "Assassin's Creed",
+        "slug": "assassins-creed",
+        "summary": "Fight Club"
+    }
+]
