@@ -6,7 +6,7 @@ $bulletImage: url(../img/notes-white.png);
 $activeBulletImage: url(../img/notes-black.png);
 $textColor: #eee;
 $headerColor: $textColor;
-$bgColor: lighten(rgba(32, 32, 32, 0.7), 8%);
+$bgColor: lighten(rgba(32, 32, 32, 0.75), 5%);
 $linkColor: #ffba3b;
 $accentColor: $bgColor;
 $navDarkColor: darken($bgColor, 4%);

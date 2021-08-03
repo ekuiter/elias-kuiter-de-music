@@ -6,6 +6,20 @@
         "background": "<video playsinline autoplay loop muted poster=\"img/index-bg.jpg\"><source src=\"img/index-bg.mp4\" type=\"video/mp4\"></video>"
     },
     {
+        "title": "Marina",
+        "slug": "marina",
+        "summary": "Ancient Dreams in a Modern Land",
+        "body": "<p>This is a song from the album <em>Ancient Dreams in a Modern Land</em> by <em><a href=\"https://www.marinaofficial.co.uk/\" target=\"_blank\">Marina Diamandis</a></em>.</p><p>You can listen to the song on YouTube or download it for free on Sheethost (PDF, MIDI or MuseScore files). Have fun!</p>{{songs}}",
+        "songs": [
+            {
+                "title": "Ancient Dreams in a Modern Land",
+                "subtitle": "(choir)",
+                "listen": "https://youtu.be/d9db-7egfnc",
+                "download": "https://sheet.host/sheet/tyXa3F"
+            }
+        ]
+    },
+    {
         "title": "The Witcher 3",
         "slug": "the-witcher-3",
         "summary": "The Vagabond",

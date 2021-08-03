@@ -1,0 +1,33 @@
+$siteWidth: 1200px;
+$headerHeight: 120px;
+$smallBreakpoint: 700px;
+$mediumBreakpoint: 900px;
+$bulletImage: url(../img/notes-white.png);
+$activeBulletImage: url(../img/notes-black.png);
+$textColor: #fefefe;
+$headerColor: $textColor;
+$bgColor: rgba(117, 62, 59, 0.8);
+$linkColor: rgba(246, 187, 155, 1);
+$accentColor: rgba(36, 41, 35, 1);
+$navDarkColor: rgba(132, 54, 53, 0.8);
+$navActiveColor: $linkColor;
+$navActiveTextColor: #222;
+$sheetMusicColor: rgba(201, 102, 101, 0.2);
+$sheetMusicActiveColor: rgba(201, 102, 101, 0.3);
+$sheetMusicActiveTextColor: $linkColor;
+$contentPadding: 10px;
+$navHoverAnimation: 3px;
+
+
+
+@import 'main';
+
+body {
+    background: black url(../img/marina-bg.jpg) center center / auto 100% no-repeat fixed;
+}
+
+@media only screen and (max-width: $mediumBreakpoint) {
+    body {
+        background-size: auto 100%;
+    }
+}
