@@ -78,7 +78,7 @@ class Renderer {
             return "";
         $html = "<ul class=\"sheet-music\">";
         foreach ($songs as $song)
-            $html .= "<li><p><strong>".$this->getProperty("title", $song)."</strong> ".$this->getProperty("subtitle", $song)."</p><ul><li><a href=\"".$this->getProperty("listen", $song)."\" target=\"_blank\">Listen</a></li><li><a href=\"".$this->getProperty("download", $song)."\" target=\"_blank\">Download</a></li></ul></li>\n";
+            $html .= "<li><p>".$this->getProperty("number", $song)." <strong>".$this->getProperty("title", $song)."</strong> ".$this->getProperty("subtitle", $song)."</p><ul><li>".($this->getProperty("listen", $song) ? "<a href=\"".$this->getProperty("listen", $song)."\" target=\"_blank\">Listen</a>" : "")."</li><li>".($this->getProperty("download", $song) ? "<a href=\"".$this->getProperty("download", $song)."\" target=\"_blank\">Download</a>" : "")."</li></ul></li>\n";
         return $html."</ul>";
     }
 }

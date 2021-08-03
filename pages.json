@@ -112,10 +112,147 @@
         "body": "<p>This is a collection of piano sheet music I made for the <a href=\"https://isakmartinsson.bandcamp.com/album/fran-bow-original-soundtrack\" target=\"_blank\">original soundtrack</a> of the adventure game <em>Fran Bow</em>.</p><p>You can listen to each song on YouTube or download it for free on Sheethost (PDF, MIDI or MuseScore files). Have fun!</p>{{songs}}",
         "songs": [
             {
-                "title": "Which Witch",
-                "subtitle": "(piano)",
-                "listen": "https://youtu.be/FFj92WIFJhs",
-                "download": "https://sheet.host/sheet/UoOVyU"
+                "number": "01.",
+                "title": "Bedtime Story",
+                "listen": "https://youtu.be/CTI_-t3BU6Y",
+                "download": "https://sheet.host/sheet/zmi6oz"
+            },
+            {
+                "number": "02.",
+                "title": "Finding The Truth",
+                "listen": "https://youtu.be/wm8YKnDQ5Hw",
+                "download": "https://sheet.host/sheet/fw4e92"
+            },
+            {
+                "number": "03.",
+                "title": "Mr. Midnight",
+                "listen": "https://youtu.be/xsbZh3w3H-Q",
+                "download": "https://sheet.host/sheet/Opmn8N"
+            },
+            {
+                "number": "05.",
+                "title": "A Little Talk",
+                "listen": "https://youtu.be/bqzOfuGzNBA",
+                "download": "https://sheet.host/sheet/FzbKL3"
+            },
+            {
+                "number": "06.",
+                "title": "Black Tears",
+                "listen": "https://youtu.be/GQe_BrBYWEg",
+                "download": "https://sheet.host/sheet/p6aK8p"
+            },
+            {
+                "number": "07.",
+                "title": "It Hunts Me",
+                "listen": "https://youtu.be/3s8y2z-y_d0",
+                "download": "https://sheet.host/sheet/DFZjat"
+            },
+            {
+                "number": "08.",
+                "title": "Cold Walls",
+                "listen": "https://youtu.be/5hxTn9ytk0U",
+                "download": "https://sheet.host/sheet/YwZhCm"
+            },
+            {
+                "number": "09.",
+                "title": "Details Omitted",
+                "listen": "https://youtu.be/UKHprknKUU4",
+                "download": "https://sheet.host/sheet/n6VpY2"
+            },
+            {
+                "number": "10.",
+                "title": "I Can See",
+                "listen": "https://youtu.be/UhjJbEetwco",
+                "download": "https://sheet.host/sheet/JvfG2Q"
+            },
+            {
+                "number": "11.",
+                "title": "Downstairs",
+                "listen": "https://youtu.be/2VSsp_fKuo8",
+                "download": "https://sheet.host/sheet/T43gVT"
+            },
+            {
+                "number": "12.",
+                "title": "Inside The Children's Head",
+                "listen": "https://youtu.be/7l7E4E9I1lk",
+                "download": "https://sheet.host/sheet/rE6TRn"
+            },
+            {
+                "number": "13.",
+                "title": "Lost On The Path",
+                "listen": "https://youtu.be/Bba8DtuQTPQ",
+                "download": "https://sheet.host/sheet/DPwzL6"
+            },
+            {
+                "number": "15.",
+                "title": "Duality",
+                "listen": "https://youtu.be/YDdxlLRvCic",
+                "download": "https://sheet.host/sheet/uEv3Wd"
+            },
+            {
+                "number": "16.",
+                "title": "This Is The Forest",
+                "listen": "https://youtu.be/3w68Hi0c8HM",
+                "download": "https://sheet.host/sheet/SWbKYA"
+            },
+            {
+                "number": "17.",
+                "title": "Sitting In Company",
+                "listen": "https://youtu.be/Y38nEyT8fLw",
+                "download": "https://sheet.host/sheet/JvW1dd"
+            },
+            {
+                "number": "23.",
+                "title": "Philmore Paranoid",
+                "listen": "https://youtu.be/iHXiJNuMVTw",
+                "download": "https://sheet.host/sheet/vWBrkk"
+            },
+            {
+                "number": "25.",
+                "title": "When Things Are Said",
+                "listen": "https://youtu.be/aBgCa-WtEJo",
+                "download": "https://sheet.host/sheet/zZv1AF"
+            },
+            {
+                "number": "28.",
+                "title": "My Friend Is Leaving",
+                "listen": "https://youtu.be/BpqGX4IMAXg",
+                "download": "https://sheet.host/sheet/61HIpk"
+            },
+            {
+                "number": "36.",
+                "title": "They Will Find You",
+                "listen": "https://youtu.be/S4bCTR9Mg2w",
+                "download": "https://sheet.host/sheet/Es8roj"
+            },
+            {
+                "number": "39.",
+                "title": "Fluffy Toad Bun",
+                "listen": "https://youtu.be/PWVihHHmR-Y",
+                "download": "https://sheet.host/sheet/LwTb9p"
+            },
+            {
+                "number": "41.",
+                "title": "Sneaky Fran",
+                "listen": "https://youtu.be/dTz_EJreRVY",
+                "download": "https://sheet.host/sheet/tsgsH9"
+            },
+            {
+                "number": "42.",
+                "title": "The Bow Family",
+                "listen": "https://youtu.be/wE9TuEbpwus",
+                "download": "https://sheet.host/sheet/8eznpH"
+            },
+            {
+                "number": "43.",
+                "title": "Between Black And White",
+                "listen": "https://youtu.be/h3Gtn43BkuI",
+                "download": "https://sheet.host/sheet/l51OUk"
+            },
+            {
+                "title": "Finding Mr. Midnight",
+                "subtitle": "by <em>Random Encounters</em>",
+                "download": "http://sheet.host/sheet/2ooI6W"
             }
         ]
     },
@@ -156,7 +293,6 @@
             {
                 "title": "Fight Club",
                 "subtitle": "(piano)",
-                "listen": "https://youtu.be/n7UNLjrBEAY",
                 "download": "https://sheet.host/sheet/SovKEc"
             }
         ]
